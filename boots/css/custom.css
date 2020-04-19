@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Play:wght@700&display=swap');
+body{
+    font-family: 'Comic Neue', cursive;
+ 
+}
+
+.weather-info-cover{
+  color: white;
+  background-image: linear-gradient(to right bottom, #0f1318, #0d1c2e, #14477a, #012c5e, #0d3376);
+}
+.time_days_two,
+.time_days{
+  font-family: 'Play', sans-serif;
+}
+.name_city{
+  font-family: 'Cinzel', serif;
+}
+.section_transpratent{
+  background-color: rgba(66, 63, 63, 0.288);
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 9px 37px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 9px 37px 1px rgba(56, 54, 54, 0.75);
+  box-shadow: 10px 9px 37px 1px rgba(0,0,0,0.75);
+  font-family: 'Cinzel', serif;
+}
+
+
+  @media only screen and (max-width:860px){
+     #countryStatsDiv{
+       height: 300px;
+     }
+  }
