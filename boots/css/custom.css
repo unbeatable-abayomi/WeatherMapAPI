@@ -8,6 +8,7 @@ body{
 }
 
 .weather-info-cover{
+  border-radius: 10px;
   color: white;
   background-image: linear-gradient(to right bottom, #0f1318, #0d1c2e, #14477a, #012c5e, #0d3376);
 }
