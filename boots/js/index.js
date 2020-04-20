@@ -16,7 +16,7 @@ let minutes = date.getMinutes();
 let seconds = date.getSeconds();
 let arryOfDays= ["Sun","Mon","Tues","Wed","Thrus","Fri","Sat"];
 let arryOfMnths = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-let am_pm = hour >= 12 ? "pm" : "am";
+let am_pm = date.getHours() >= 12 ? "pm" : "am";
 let zero = minutes <= 9? "0" : "";
 function getWeatherInfo(){
 	let lagos ='https://api.openweathermap.org/data/2.5/weather?q=lagos&appid=e43c60c1d74b3bccd1b3654eb8db80bd&lang=en&units=metric';
